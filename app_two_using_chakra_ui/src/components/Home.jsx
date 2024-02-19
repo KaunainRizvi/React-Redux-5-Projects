@@ -49,7 +49,7 @@ const Home = () => {
          </Box>
         </Carousel>
     )
-    //carousel
+    //carousel done
   return (
     <Box>
   <MyCarousel />
