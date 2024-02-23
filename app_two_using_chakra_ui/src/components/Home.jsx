@@ -49,7 +49,7 @@ const Home = () => {
          </Box>
         </Carousel>
     )
-    //carousel 
+   
   return (
     <Box>
   <MyCarousel />
@@ -58,3 +58,4 @@ const Home = () => {
 }
 
 export default Home
+
