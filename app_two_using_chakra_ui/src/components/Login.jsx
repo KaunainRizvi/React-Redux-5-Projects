@@ -8,7 +8,7 @@ const Login = () => {
 
         <form>
             <VStack alignItems={"stretch"} spacing={"8"} w={["full","96"]} my={"16"} margin={"auto"}>
-                <Heading>Welcome Back!</Heading>
+                <Heading textAlign={"center"}>Welcome Back!</Heading>
                 <Input placeholder='Enter Your Email' type='email' required focusBorderColor='purple.500'/>
                 <Input placeholder='Enter Your Password' type='password' required focusBorderColor='purple.500'/>
                 <Button variant={"link"} alignSelf={"flex-end"}>
