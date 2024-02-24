@@ -67,8 +67,17 @@ alignItems={"center"}
 direction={["column", "row"]}>
 <Image src={img5} h={["40", "400"]} filter={"hue-rotate(-130deg)"}/>
 <Text letterSpacing={"widest"} lineHeight={"190%"} p={["4", "16"]} textAlign={"center"}>
-   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat autem ex reprehenderit nisi quis eveniet magnam doloremque harum blanditiis, doloribus ea commodi libero eaque molestiae voluptatum asperiores? Molestiae, debitis fugit.
-</Text>
+At Video Guru, we pride ourselves on being your ultimate destination for top-notch digital services. Specializing in web development, app development, game development, and video editing, we offer a diverse range of solutions tailored to meet your unique needs.
+
+Web Development: Whether you're a startup or an established enterprise, our expert team of web developers crafts cutting-edge websites that captivate audiences and drive results. From responsive designs to seamless user experiences, we ensure your online presence stands out in today's competitive landscape.
+
+App Development: Transform your ideas into reality with our custom app development services. From iOS to Android, we leverage the latest technologies to create intuitive and engaging mobile applications that resonate with your target audience, enhancing user engagement and satisfaction.
+
+Game Development: Immerse your audience in captivating gaming experiences with our game development expertise. Our talented team brings your concepts to life, delivering immersive gameplay, stunning graphics, and addictive mechanics that keep players coming back for more.
+
+Video Editing: Elevate your content with our professional video editing services. Whether it's promotional videos, tutorials, or social media content, our skilled editors refine your footage into polished masterpieces, enhancing visual appeal and storytelling effectiveness.
+
+At Video Guru, we're committed to excellence in every project we undertake. With a focus on innovation, quality, and client satisfaction, we're your trusted partner for all your digital needs. Let's collaborate and take your digital presence to new heights!</Text>
 
 </Stack>
   </Container>
