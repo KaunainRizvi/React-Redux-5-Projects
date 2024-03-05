@@ -1,12 +1,16 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://dailyfoodie:dailyfoodie%40123@cluster0.9vu9ewo.mongodb.net/'
+const mongoURI = 'mongodb+srv://dailyfoodie:dailyfoodie%40123@cluster0.9vu9ewo.mongodb.net/dailyfoodie';
+
 const connectToMongo = async () => {
     try {
-        await mongoose.connect(mongoURI);
-        console.log("DB Connected Successfully");
+        const connection = await mongoose.connect(mongoURI);
+        console.log("Connected");
+
+        const fetchData = await connection.connection.db.collection("foodData2");
+        const data = await fetchData.find({}).toArray();
+        // console.log("Fetched data:", data);
     } catch (error) {
-        console.error('Error connecting to database:', error);
-        process.exit(1); // Exit the process if unable to connect to MongoDB
+        console.log("Error:", error);
     }
 };
 
